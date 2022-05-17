@@ -1,0 +1,86 @@
+[debug] [2022-05-17T13:55:29.368Z] ----------------------------------------------------------------------
+[debug] [2022-05-17T13:55:29.372Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-17T13:55:29.372Z] CLI Version:   10.2.1
+[debug] [2022-05-17T13:55:29.372Z] Platform:      win32
+[debug] [2022-05-17T13:55:29.373Z] Node Version:  v16.13.1
+[debug] [2022-05-17T13:55:29.374Z] Time:          Tue May 17 2022 19:25:29 GMT+0530 (India Standard Time)
+[debug] [2022-05-17T13:55:29.374Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-17T13:55:29.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-17T13:55:29.455Z] > authorizing via signed-in user (neotheoneindia@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\games\project
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-17T13:55:45.518Z] Using project from CLI flag: talkiify
+[debug] [2022-05-17T13:55:45.521Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/talkiify [none]
+[debug] [2022-05-17T13:55:46.258Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/talkiify 403
+[debug] [2022-05-17T13:55:46.258Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/talkiify {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-17T13:55:46.259Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-17T13:55:46.500Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project talkiify. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-17T13:56:21.770Z] ----------------------------------------------------------------------
+[debug] [2022-05-17T13:56:21.773Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-17T13:56:21.774Z] CLI Version:   10.2.1
+[debug] [2022-05-17T13:56:21.774Z] Platform:      win32
+[debug] [2022-05-17T13:56:21.774Z] Node Version:  v16.13.1
+[debug] [2022-05-17T13:56:21.776Z] Time:          Tue May 17 2022 19:26:21 GMT+0530 (India Standard Time)
+[debug] [2022-05-17T13:56:21.776Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-17T13:56:21.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-17T13:56:21.883Z] > authorizing via signed-in user (neotheoneindia@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\games\project
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-17T13:56:31.725Z] Using project from CLI flag: talkiify
+[debug] [2022-05-17T13:56:31.729Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/talkiify [none]
+[debug] [2022-05-17T13:56:32.536Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/talkiify 403
+[debug] [2022-05-17T13:56:32.537Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/talkiify {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-17T13:56:32.537Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-17T13:56:32.817Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\vt663\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project talkiify. Please make sure the project exists and your account has permission to access it.
